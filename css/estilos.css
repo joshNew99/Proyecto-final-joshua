@@ -1,0 +1,98 @@
+﻿* {
+    color: white;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+       background-size: cover;
+}
+
+body {
+    background-image: url('../img/coffee2.jpg');
+    background-color: transparent;
+}
+
+#banner{
+    height:500px;
+    padding:5px;
+    width:1490px;
+ 
+   
+    }
+
+.contacto{
+    border: 1px solid #CED5D7;
+    border-radius: 2px;
+    padding: 10px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:darkgrey;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;
+    width:700px;
+    
+}
+
+footer {
+    background-color: gray;
+    bottom: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+    footer p {
+        color: black;
+        font-size: 1.2em;
+        line-height: 45px;
+    }
+
+.titulo{
+    font-size:5em;
+    font-weight: 900;
+    left: 50%;
+    position: fixed;
+    top: 15%;    
+    transform: translate(-50%, -50%);
+}
+
+#listado-productos div {   
+    background-color: rgba(255, 255, 255, 0.6);
+    border-style: solid;
+    border-width: 4px;
+    border-color: gray;
+    margin: 0 auto 20px auto;
+    width: 80%;
+}
+
+#listado-productos h1 {
+    font-size: 3.0em;
+}
+
+#seccion-fomulario {
+    background-color: black;
+}
+
+
+.cuerpo-principal  {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    margin-top: -20px;
+
+
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+    .navbar-brand img {
+        margin: 0.5px 20px 0.5px 10px;
+        height: 50px;
+        width: 80px;
+    }
+   
